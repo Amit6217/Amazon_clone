@@ -194,7 +194,7 @@
 
 .main {
     width: 100%;
-    background-color:#f3f3f3;
+    background-color: #f3f3f3;
     height: 860px;
     display: flex;
     flex-wrap: wrap;
@@ -262,4 +262,76 @@
 #image8 {
     background-image: url(photos/box8_image.jpg);
     background-size: cover;
+}
+
+.foot1 {
+    padding: 15px 0px 15px;
+    background-color: #374751;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.foot1:hover{
+    background-color: #222f3daf;
+}
+.foot2 {
+    padding: 30px 0px 30px 0px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: #222f3d;
+
+    div {
+        width: 18%;
+        height: 100%;
+        margin: 0px 30px 0px 30px;
+    }
+
+    .c {
+        display: flex;
+        flex-direction: column;
+        color: white;
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding-top: 10px;
+        }
+    }
+}
+.under:hover{
+    text-decoration: underline;
+}
+.foot2 .under:hover{
+    text-decoration: underline;
+}
+.foot3 {
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+
+    div {
+        margin: 10px 0px 10px;
+        height: 68px;
+        width: 156px;
+        background-image: url(photos/amazon_logo.png);
+        background-size: cover;
+    }
+}
+.foot4{
+    padding: 10px 0px 30px;
+    background-color: #131a22;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        margin:5px 20px 5px 20px;
+        color: white;
+        text-decoration: none;
+    }
 }
