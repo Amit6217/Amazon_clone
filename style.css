@@ -8,15 +8,15 @@
 .navbar {
     background-color: #0f1111;
     color: white;
-    height: 60px;
+    height: 4vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .logo {
-    height: 50px;
-    width: 115px;
+    height: 3.33vw;
+    width: 7.67vw;
     background-image: url(photos/amazon_logo.png);
     background-size: cover;
 }
@@ -35,25 +35,25 @@
 
 .adress1 {
     color: #cccccc;
-    font-size: 14px;
+    font-size: 0.93vw;
 }
 
 .adress2 {
-    font-size: 16px;
+    font-size: 1.1vw;
 }
 
 #loc {
-    font-size: 20px;
-    padding-top: 8px;
-    padding-right: 2px
+    font-size: 1.33vw;
+    padding-top: 0.533vw;
+    padding-right: 0.133vw;
 }
 
 .search {
     display: flex;
     align-items: center;
-    height: 40px;
-    width: 700px;
-    border-radius: 10px;
+    height: 2.67vw;
+    width: 46.67vw;
+    border-radius: 0.67vw;
 }
 
 .search:hover {
@@ -62,31 +62,31 @@
 
 .search1 {
     background-color: #f3f3f3;
-    width: 50px;
+    width: 3.33vw;
     text-align: center;
-    height: 40px;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    height: 2.67vw;
+    border-top-left-radius: 0.267vw;
+    border-bottom-left-radius: 0.267vw;
     border: none;
 }
 
 .search2 {
-    height: 40px;
+    height: 2.67vw;
     width: 100%;
     border: none;
-    font-size: 1rem;
+    font-size: 1.33vw;
 }
 
 .search3 {
-    height: 40px;
-    width: 45px;
+    height: 2.67vw;
+    width: 3vw;
     background-color: orange;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: 0.267vw;
+    border-bottom-right-radius: 0.267vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 1.75vw;
     color: black;
 }
 
@@ -96,11 +96,11 @@
 }
 
 .line1 {
-    font-size: 14px;
+    font-size: 0.933vw;
 }
 
 .line2 {
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 700;
 }
 
@@ -110,11 +110,11 @@
 }
 
 .return {
-    font-size: 14px;
+    font-size: 0.933vw;
 }
 
 .order {
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 700;
 }
 
@@ -123,35 +123,35 @@
 }
 
 #cart1 {
-    font-size: 1.5rem;
+    font-size: 1.9vw;
 }
 
 .cart2 {
-    padding-top: 10px;
-    font-size: 16px;
-    font-weight: 700;
+    padding-top: 0.667vw;
+    font-size: 1.2vw;
+    font-weight: 600;
 }
 
 .row2 {
     background-color: #222f3d;
     width: 100%;
-    ;
-    height: 39px;
+    height: 2.67vw;
     display: flex;
     align-items: center;
 }
 
 .row2 div {
-    padding: 9px;
+    padding: 0.6vw;
 }
 
 .row2 div p {
     color: white;
+    font-size: 1.1vw;
 }
 
 .row2 div i {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
 .box1 {
@@ -160,9 +160,9 @@
 }
 
 .box1 p {
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 700;
-    padding-left: 5px;
+    padding-left: 0.33vw;
 }
 
 .hero {
@@ -172,19 +172,19 @@
     background-image: url(photos/hero_image.jpg);
     background-size: cover;
     width: 100%;
-    height: 350px;
+    height: 23.33vw;
 }
 
 .hero div {
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 1.33vw;
     width: 90%;
     text-align: center;
-    padding: 14px;
+    padding: 0.933vw;
 }
 
 .hero div p {
-    font-size: 16px;
+    font-size: 1.1vw;
 }
 
 .hero div p a {
@@ -193,9 +193,9 @@
 }
 
 .main {
-    width: 100%;
+    width: 100vw;
     background-color: #f3f3f3;
-    height: 860px;
+    height: 68vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -203,12 +203,12 @@
 }
 
 .mainbox {
-    width: 20%;
-    height: 385px;
+    width: 22.5vw;
+    height: 30vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 15px;
+    padding: 0.5vw;
     background-color: white;
 
     .image {
@@ -217,10 +217,15 @@
 
     .heading {
         align-self: flex-start;
+
+        p{
+            font-size: 2vw;
+        }
     }
 
     .link a {
         text-decoration: none;
+        font-size: 1.1vw;
     }
 }
 
@@ -265,13 +270,14 @@
 }
 
 .foot1 {
-    padding: 15px 0px 15px;
+    padding: 1vw 0px 1vw;
     background-color: #374751;
     text-align: center;
 
     a {
         text-decoration: none;
         color: white;
+        font-size: 1.33vw;
     }
 }
 
@@ -279,8 +285,8 @@
     background-color: #222f3daf;
 }
 .foot2 {
-    padding: 30px 0px 30px 0px;
-    height: 250px;
+    padding: 2vw 0px 2vw 0px;
+    height: 16.67vw;
     display: flex;
     justify-content: center;
     background-color: #222f3d;
@@ -288,7 +294,14 @@
     div {
         width: 18%;
         height: 100%;
-        margin: 0px 30px 0px 30px;
+        margin: 0px 2vw 0px 2vw;
+        a{
+            font-size: 1.1vw;
+        }
+        p{
+            font-size: 1.3vw;
+            font-weight: 700;
+        }
     }
 
     .c {
@@ -299,7 +312,7 @@
         a {
             color: white;
             text-decoration: none;
-            padding-top: 10px;
+            padding-top: 0.67vw;
         }
     }
 }
@@ -315,23 +328,36 @@
     justify-content: center;
 
     div {
-        margin: 10px 0px 10px;
-        height: 68px;
-        width: 156px;
+        margin: 0.67vw 0px 0.67vw;
+        height: 4.53vw;
+        width: 10.4vw;
         background-image: url(photos/amazon_logo.png);
         background-size: cover;
     }
 }
 .foot4{
-    padding: 10px 0px 30px;
+    padding: 0.67vw 0px 2vw;
     background-color: #131a22;
-    height: 37px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     a{
-        margin:5px 20px 5px 20px;
+        margin:0.33vw 1.33vw 0.33vw 1.33vw;
         color: white;
         text-decoration: none;
+        font-size: 1.1vw;
+    }
+}
+
+@media(max-width:1100px){
+    .main{
+        width:100vw;
+        height:124vw;
+
+    }
+    .mainbox{
+        width:30vw;
+        height:37.6vw;
     }
 }
