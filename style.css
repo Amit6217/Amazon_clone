@@ -48,6 +48,7 @@
     font-size: 1.33vw;
     padding-top: 0.533vw;
     padding-right: 0.133vw;
+    margin-right: 0.3vw;
 }
 
 .search {
@@ -73,7 +74,7 @@
 }
 
 select {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     text-align: center;
     appearance: none;
 }
@@ -122,7 +123,7 @@ select:focus {
         width: 1.8vw;
         height: 1.3vw;
         border-radius: 20%;
-        background-color: aqua
+        margin-right: 0.3vw;
     }
 
     select {
@@ -136,6 +137,11 @@ select:focus {
 .flag {
     background-image: url(photos/flagicon.png);
     background-size: cover;
+}
+
+.langarrow{
+    background-color: #0f1111;
+    font-size: 1.2vw;
 }
 
 .signin {
@@ -179,6 +185,7 @@ select:focus {
 
 #cart1 {
     font-size: 1.9vw;
+    margin-right: 0.3vw;
 }
 
 .cart2 {
